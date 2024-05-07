@@ -1,0 +1,38 @@
+.mobile-app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.free-app {
+    position:absolute;
+    z-index: 1 ;
+    background-color: #252641;
+    width: 1550px;
+    height: 200px;
+    border-radius: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    margin-left: 500px;
+}
+
+.app-btn {
+    width: 250px;
+    height: 63px;
+    color: #FFFFFF;
+    background-color: #29B9E7;
+    font-size: 24px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 12px;
+}
+
+.app-btn img {
+    margin: 20px 15px 25px 0px;
+}

@@ -1,0 +1,45 @@
+/* UpdateProfile.module.css */
+
+.card {
+  margin-top: 50px;
+}
+
+.cardtitle {
+  text-align: center;
+}
+
+.formlabel {
+  font-weight: bold;
+}
+
+.textdanger {
+  color: red;
+}
+
+.form-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.form-group > div {
+  width: 48%; /* Adjust as needed */
+  margin-bottom: 20px;
+}
+
+.submit {
+  background-color: #49bbbd;
+  color: #ffff;
+  padding: 5px;
+}
+.submit:hover {
+  background-color: #252641;
+  color: #ffff;
+  padding: 5px;
+}
+
+@media (max-width: 768px) {
+  .form-group > div {
+    width: 100%;
+  }
+}

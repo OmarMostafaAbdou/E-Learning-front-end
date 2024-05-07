@@ -1,0 +1,82 @@
+.container {
+  width: 100%;
+  margin: auto;
+  padding: 0 1rem;
+}
+
+.inpo {
+  display: block;
+  border-radius: 80px;
+  border: 2px solid;
+  height: 50px;
+  padding: 2px;
+  border-color: #49bbbd;
+  color: #000;
+}
+.inpo2 {
+  display: block;
+  border-radius: 80px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  color: #49bbbd;
+  border: 1px solid !important;
+  border-color: #49bbbd !important;
+}
+.inpo3 {
+  display: block;
+  border-radius: 30px;
+  height: 130px;
+  border: 2 solid;
+  border-color: #49bbbd;
+  padding: 10px;
+}
+.inpo5 {
+  display: block;
+  border-radius: 80px;
+  height: 70px;
+  width: 100% !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  color: #49bbbd;
+  border: 2px solid !important;
+  border-color: #49bbbd !important;
+}
+
+.but1 {
+  border: 1px solid #49bbbd;
+
+  font-size: bold;
+
+  color: #49bbbd;
+}
+.but1:hover {
+  background-color: #252641;
+  color: #ffff;
+}
+.but3 {
+  background-color: #49bbbd;
+  color: #ffff;
+  justify-content: end;
+}
+.but3:hover {
+  background-color: #252641;
+  color: #ffff;
+}
+
+.but2 {
+  border: 1px solid #252641;
+  color: #252641;
+  font-size: bold;
+}
+
+.but2:hover {
+  background-color: #49bbbd;
+}
+.multiselect {
+  outline: none;
+}

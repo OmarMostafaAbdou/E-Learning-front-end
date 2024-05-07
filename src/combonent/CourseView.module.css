@@ -1,0 +1,59 @@
+.vid {
+  margin-top: 20px;
+  background-color: #9dccff3e;
+}
+.formcontrol {
+  height: 200px;
+}
+
+.buttonContainer {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.joinRoomButton {
+  background-color: #49bbbd;
+  color: #fff;
+  padding: 30px 30px;
+  font-size: 14px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.joinRoomButton:hover {
+  background-color: #252641;
+  transform: scale(1.1);
+}
+
+.joinRoomButton::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: calc(100% - 10px);
+  height: calc(100% - 10px);
+  border-radius: 50%;
+  border: 5px solid #49bbbd;
+  z-index: -1;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.3;
+  }
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}

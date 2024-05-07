@@ -1,0 +1,31 @@
+.nav {
+  background-color: #252641 !important;
+  color: aliceblue !important;
+  height: 80px;
+  /* margin: auto; */
+}
+.img {
+  width: 65px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.logout {
+  margin-top: 1 px;
+}
+.links {
+  padding-right: 260px !important;
+}
+.logo {
+  height: 35px;
+}
+.form {
+  justify-content: center !important;
+
+  width: 300px;
+}
+
+.log {
+  margin-top: 12px !important;
+  height: 40px;
+}

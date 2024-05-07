@@ -1,0 +1,14 @@
+.searchInput {
+  padding: 0.5rem;
+}
+.search {
+  background-color: #49bbbd;
+  color: #252641;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.search:hover {
+  background-color: #252641;
+  color: #ffff;
+}

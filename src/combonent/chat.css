@@ -1,0 +1,33 @@
+.chatBox {
+  max-height: 70vh;
+  overflow-y: scroll;
+}
+
+.chat-message {
+  background-color: #f4f4f4;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.card-footer {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.sentMessage {
+  text-align: right;
+}
+
+.receivedMessage {
+  text-align: left;
+}
+
+.chatBox {
+  height: 70vh;
+}
+
+.head {
+  height: 700px !important;
+}
+

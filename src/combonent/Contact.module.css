@@ -1,0 +1,17 @@
+.colo{
+    background-color: #252641;
+    color: #fff;
+}
+.btn{
+    color: #fff;
+    width: 90px;
+    margin: 15px 0px 20px 0px;
+    background-color: #49bbbd;
+}
+
+.btn:hover{
+    color: #49bbbd;
+    width: 90px;
+    margin: 15px 0px 20px 0px;
+    background-color: #fff;
+}

@@ -1,0 +1,74 @@
+.linkes {
+  color: #49bbbd !important;
+}
+
+.container {
+  background-color: #ebf5ff;
+}
+.cards {
+  padding: 0 !important;
+  margin: 8px !important;
+  max-width: 340px !important;
+  height: 10px !important;
+  min-height: 620px !important;
+}
+.btnn {
+  background-color: #49bbbd;
+  border: 0;
+  border-radius: 2px;
+  color: #ffffff !important;
+  width: 30px;
+  height: 32px;
+  margin: 5px;
+}
+.lin {
+  text-decoration: line-through;
+  margin-right: 5px;
+  color: #808080;
+}
+.online {
+  color: #ffffff;
+  background-color: #252641;
+  border-radius: 20px;
+  height: 250px;
+  align-items: center;
+  text-align: center;
+  padding-top: 15px;
+}
+.onlinebtn {
+  border-radius: 10px;
+  border: 0;
+  background-color: #49bbbd;
+  color: #ffffff;
+  height: 34px;
+  margin-bottom: 15px;
+}
+.botomtext {
+  max-width: 40rem;
+  min-height: 140px;
+  /* margin: 4rem auto; */
+  /* background-color: #49bbbd; */
+  padding: 1rem;
+}
+.pimg {
+  width: 500px;
+}
+.plinks {
+  background-color: #49bbbd !important;
+  color: #ffffff !important;
+  border-color: #252641 !important;
+  border: 2px !important;
+}
+.plinks2 {
+  background-color: #ffffff !important;
+  color: #49bbbd !important;
+  border-color: #252641;
+  border: 2px !important;
+}
+.but1 {
+  border: 1px solid #49bbbd !important;
+
+  font-size: bold;
+
+  color: #49bbbd;
+}
